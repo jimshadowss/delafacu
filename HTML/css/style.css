@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    color: red;
+    border-width: 5px;
+    border-color: green;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: rgb(48, 28, 10);
+    border-style: groove;
+    border-color: rgb(66, 8, 8);
+}
+
+p+a {
+    font-family: fantasy;
+    border-color: darkcyan;
+    border-style: double;
+    border-width: 10px;
+}
+
+a {
+    color: rgb(48, 28, 10);
+    border-style: groove;
+    border-color: rgb(66, 8, 8);
+    font-size: 30 px;
+    size: 35 px;
+    width: 30 px;
+}
+
+section {
+    color: red;
+    border-width: 5px;
+    border: rgb(200, 120, 50);
+}
+
+div {
+    size-adjust: inherit;
+}
